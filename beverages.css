@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}body{
+    padding: 0px;
+    margin: 0px;
+   
+}
+html{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: "lato","Arial";
+
+    
+    
+}
+header{
+    height: 100vh;
+    background-image: url(images/section1.jpg);
+    background-attachment: static;
+    background-size: cover;
+}
+#navbar{
+    text-align: center;
+    background-color: white;
+    height:60px;
+    position: fixed;
+    top: -60px;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 2;
+}
+#navbar a{
+    
+    color: #333;
+    padding: 20px 20px;
+    font-size: small;
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+}#name{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}#name a{
+    font-size:2vw;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 0.1em;
+    padding: 0px;
+}
+
+#hero-txt{
+    padding-top: 150px;
+    padding-left: 70px;
+    color: seashell;
+}#hero-txt h1{
+    margin: -10px 0px;
+    font-size: 50px;
+    letter-spacing: 0.08em;
+    
+}#hero-txt h4{
+    letter-spacing: 0.25em;
+    
+}#read{
+    letter-spacing: 0.1em;
+    width: 160px;
+    padding:5px 5px 5px 15px;
+    background-color: orangered;
+}
+
+section{
+    height:100vh;
+}
+#services{
+    background-color: whitesmoke;
+}
+
+#service_head{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+
+}#service_head h1{
+    font-size: 5vw;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 300;
+    margin-bottom: 0px;
+}#service_head h3{
+    color: grey;
+    font-weight: 300;
+    text-align: center;
+    border-top: grey solid 1px;
+    border-bottom: grey solid 1px;
+    margin: auto 700px;
+    
+}
+
+#service_box{
+    position: relative;
+}
+
+#offerings {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:320px ;
+}.products{
+    display: inline-block;
+    padding:0px 70px;
+}.products h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.products b img{
+    border-radius: 80%;
+    border: cornsilk 2px solid;
+}
+
+#about_us{
+    background-image:url(images/coffee_beans.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+ 
+#surface{
+    border-radius: 2%;
+    height: 70vh;
+    margin: 0px 280px;
+    background-image:url(images/about_back.jpg);
+    background-position: static;
+    background-size: cover;
+}#sur{
+    height: 15vh;
+    color: transparent;
+}
+#text{
+    text-align: center;
+}
+
+#text h1{
+    color:silver;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 300;
+    font-size: 5vw;
+    margin:auto 340px;
+    border-bottom: grey 1px solid;
+}
+#main-txt .paragraph{
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+}#main-txt{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.paragraph p{
+    padding-right: 30px;
+    color: white;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+}
+#main-txt .image{
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+}
+.image img{
+    border: white 4px solid;
+}
+#img1{
+    padding-left: 150px;
+    margin-left: 200px;
+    
+}#img2{
+    z-index: 1;
+    padding-left: 230px;
+    margin-left: 50px;
+    margin-top:-50px ;
+    
+}
+#center{
+    position: relative;
+}#center1,#center2,#center3,#center4{
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+}
+#center2{
+    left: 378px;
+}#center3{
+    left: 756px;
+}
+#center4{
+    left: 1134px;
+}.cname{
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    max-width: 100%;
+    
+}.cname h1{
+    color:transparent;
+    font-size: 2vw;
+    font-weight: 500;
+}
+#center img:hover {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3);
+    transition: 0.7s;
+}.dark:hover  .cname h1{
+    color:cornsilk;
+    border-top: 1px solid cornsilk;
+    border-bottom: 1px solid cornsilk;
+    transition: 0.7s;
+}
+
+#menu{
+    height: 120vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(images/menu.jpg);
+    background-size: cover;
+}
+
+#menu_container{
+    margin: 0px 280px;
+    position: relative;
+
+    
+}
+#menu_head{
+    position: absolute;
+    left: 350px;
+}
+#menu_head h1{
+    font-family:'Great Vibes', cursive;
+    font-size: 5vw;
+    font-weight: 300;
+    color:white;
+    border-bottom: 1px solid white;
+}
+#item_container{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+#item_container h1{
+    color:lightgrey;
+    font-weight: 300;
+    font-size: 30px;
+    border-bottom:wheat 1px solid;
+    font-family: "Cormorant Garamond";
+    width: 250px;
+}
+#item_container .items{
+    font-size:20px ;
+    font-weight: bold;
+    color:wheat;
+    letter-spacing: 0.1em;
+}
+.items{
+    padding-bottom: 20px;
+}
+.price{
+    display: inline-block;
+    position: absolute;
+    left: 700px;
+    font-family: 'Kameron', serif;
+    
+}
+.items:hover .price {
+    color:  orange;
+    transform: scale(1.5,1.5);
+    transition:0.4s;
+}
+
+
+#reservation{
+    background-image: url(images/menu1.jpg);
+    background-size: cover;
+}
+#reservation_head{
+    position: absolute;
+    left: 380px;
+}
+#reservation_head h1{
+    border-bottom: #333 solid 1px;
+    padding: 0px 30px;
+    font-family: "Cormorant Garamond";
+    font-size: 3vw;
+    font-weight: 300;
+    color: #333;
+}
+#reserve{
+    position: relative;
+    left: 270px;
+    top: 100px;
+    background-color:whitesmoke;
+    border-radius: 2%;
+    width: 1000px;
+    height: 550px;
+}#information{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}input{
+    width: 400px;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-size: 15px;
+    border-bottom: grey 1px solid;
+    font-family: 'Orbitron', sans-serif;
+    color: grey;
+}select{
+    border-bottom: grey 1px solid;
+    font-size: 15px;
+    width: 400px;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    background-color: whitesmoke;
+    color: grey;
+    font-family: 'Orbitron', sans-serif;
+}input[type=email]{
+    position: relative;
+    top: 50px; 
+}input[type=tel]{
+    position: relative;
+    left: 40px;
+}input[type=date],select[name=time]{
+    position: relative;
+    top: 100px;
+}input:focus{
+    outline: none;
+}select:focus{
+    outline: none;
+}#press{
+    position: absolute;
+    top: 450px;
+    left: 460px;
+}
+option[value=time],option[value=person]{
+    font-weight: bolder;
+}
+input[type=submit]{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #333;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    padding: 0px;
+    width: 50px;
+}input[type=submit]:hover{
+    color: orange;
+}#contact{
+    background-image: url(images/last.jpg);
+    background-size: cover;
+    
+}
+
+#last{
+    position: relative;
+    left: 400px;
+    top: 50px;
+    width: 1000px;
+    height: 600px;
+    
+}#last_head h1{
+    font-size: 3vw;
+    font-family: "Cormorant Garamond";
+    color:#333;
+    border-bottom:#333 1px solid;
+}#last_head{
+    position: absolute;
+    left: 550px;
+    top: 70px;
+}#info{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}.time1{
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+}.time1:nth-of-type(1){
+    width: max-content;
+} #info .day{
+    color: #333;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    font-weight:700;
+    padding-top: 30px;
+} #buphone{
+    position: absolute;
+    top:150px;
+    left: 80px;
+    font-size: 20px;
+    text-align: center;
+    color:#333;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+} #office{
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    left:100px ;
+    color:#333;
+    width: max-content;
+}#office p{
+    width: 200px;
+}
+#buphone p,.time1,#office p{
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+#foot{
+    height: 5vh;
+}
+ion-icon{
+    display: inline-block;
+    color:white;
+    text-align: center;
+    font-size:40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}#footer{
+    position: absolute;
+    background-color:#333;
+    height: 80px;
+    text-align: center;
+    position: relative;
+}#footer a{
+    color: white;
+    position: absolute;
+    display: inline-block;
+    left:30px;
+    top: 15px;
+    font-size: 2vw;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}#footer #registered{
+    position: absolute;
+    left: 1370px;
+    top: 50px;
+    font-size: small;
+    font-family: "lato","Arial";
+    letter-spacing:0.2em;
+
+}
